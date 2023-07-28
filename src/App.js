@@ -11,7 +11,12 @@ export default function App() {
           This project was coded by
           <span className="coder">
             <strong> Eliana Walters</strong> and is{" "}
-            <a href="" className="github-link" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/lyanasky/weather-react"
+              className="github-link"
+              target="_blank"
+              rel="noreferrer"
+            >
               Open-Sourced on GitHub
             </a>
             .
