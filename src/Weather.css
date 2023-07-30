@@ -3,8 +3,8 @@
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 7px;
-  color: rgb(135, 135, 135);
-  background-color: #f1f5f9;
+  color: rgb(41, 36, 36);
+  background-color: rgb(250, 125, 146);
 }
 
 .Weather .search {
@@ -21,6 +21,9 @@
 .Weather ul {
   margin: 0;
   padding: 0;
+}
+.Weather .btn-dark {
+  background-color: black;
 }
 
 .Weather li {
