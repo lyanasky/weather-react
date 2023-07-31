@@ -4,6 +4,35 @@
   margin: 0 auto;
 }
 
+.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 200%;
+  height: 200%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  animation: span-left 80s linear forwards;
+}
+.background-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  width: 200%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0.9;
+  animation: span-left 80s linear forwards;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
