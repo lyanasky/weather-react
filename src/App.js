@@ -1,7 +1,7 @@
 import React from "react";
 import Weather from "./Weather.js";
 import "./App.css";
-import bgPicture from "./images/BG.jpeg";
+import bgPicture from "./Images/BG.jpeg";
 
 export default function App() {
   return (
