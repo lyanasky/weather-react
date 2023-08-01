@@ -1,15 +1,15 @@
 import React from "react";
 import Weather from "./Weather.js";
 import "./App.css";
-import bgPicture from "./Images/BG.jpeg";
+import bgPicture from "./Images/Background video.mp4";
 
 export default function App() {
   return (
     <div className="main-container">
       <div className="backround">
-        <img
+        <video
           src={bgPicture}
-          alt="BG"
+          alt="Backround video"
           style={{ position: "absolute", zIndex: -1 }}
         />
         <div className="App">

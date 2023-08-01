@@ -3,7 +3,12 @@
   max-width: 900px;
   margin: 0 auto;
 }
-
+.App footer {
+  font-size: 15px;
+  color: #dadde1;
+  text-align: center;
+  margin: 10px;
+}
 .main-container {
   position: absolute;
   top: 0;
@@ -14,9 +19,7 @@
   overflow: hidden;
   opacity: 0.9;
 }
-.background {
-  animation: span-left 80s linear forwards;
-}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -29,7 +32,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -40,7 +43,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #dadde1;
 }
 
 @keyframes App-logo-spin {
